@@ -1,0 +1,31 @@
+.content {
+    border: 1px solid #ccc;
+}
+
+.drop-down-menu {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+}
+
+.drop-down-menu__header {
+    display: block;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.drop-down-menu__body--hidden {
+  display: none;
+}
+
+.menu__body__item {
+    display: block;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu__body__item:hover {
+    background-color: #ccc;
+}
